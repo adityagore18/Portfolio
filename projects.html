@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color:  rgb(255, 252, 252);
+        }
+
+        nav {
+            margin: 2px;
+            display: flex;
+        }
+
+        .left {
+            margin: 5px;
+
+        }
+
+        .left a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .right ul {
+            margin-left: 1511px;
+            list-style-type: none;
+            display: flex;
+
+        }
+
+        .right ul li {
+            margin: 5px;
+            padding: 4px;
+            border-right: 2px solid black;
+        }
+
+        .right ul li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .right ul li a:hover {
+            font-size: 20px;
+            color: orange;
+        }
+
+        .right ul li a:active {
+            font-size: 20px;
+            color: orange;
+        }
+
+        main {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+
+
+        }
+
+        .mainRight {
+            margin-top: 25px;
+            margin-left: 74px;
+            height: 300px;
+            width: 300px;
+             
+
+
+
+        }
+
+        .mainRight img {
+            height: 304px;
+            width: 503px;
+            border: 1px solid black;
+        }
+
+        .mainLeft {
+            margin-top: 25px;
+            margin-left: 245px;
+            height: 300px;
+            width: 900px;
+             
+        }
+
+        .Maintext {
+            margin-top: 9px;
+            margin-left: 146px;
+
+        }
+
+
+        hr {
+            margin: 50px;
+            background-color: gray;
+            border-width: 2px;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .footer>div {
+            margin-top: 5px;
+            margin-left: 5px;
+            height: 100px;
+            width: 100px;
+        }
+
+        .footer img {
+            margin: 3px;
+            height: 30px;
+            width: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div style=" margin-top:5px;height: 16px;width: 16px; border: 1px solid black; background-color: orange; border-radius: 50%;"></div>
+
+        <div class="left"><a href="index.html">Gore Aditya</a></div>
+        <div class="right">
+            <ul>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="Maintext">
+        <h1>Projects</h1>
+    </div>
+    <main>
+        <div class="mainLeft">
+            <h2>LaptopMatchup</h2><br>
+            <p>LaptopMatchup.com streamlines your laptop search. Explore detailed comparisons, specs, and user reviews for confident decision-making. Find your perfect match effortlessly with our comprehensive platform dedicated to simplifying the laptop selection process.</p>
+
+        </div>
+        <div class="mainRight">
+            <img src="../static/p2.png">
+        </div>
+        <div class="mainLeft">
+            <h2>InvoGenius</h2><br>
+            <p>A fusion of "Inventory" and "Genius," indicating a smart system for billing
+                and inventory management. User or Shopkeeper used our website to keep track of inventories and bills
+                in their shop.
+            </p>
+        </div>
+        <div class="mainRight">
+            <img src="../static/p3.png">
+        </div>
+        <div class="mainLeft">
+            <h2>GetDetails</h2><br>
+            <p>It is Small GetDetails web app is a streamlined project employing HTML, CSS, and the Flask framework in
+                Python to create a user-friendly experience. Comprising two distinct pages, the first page, aptly named
+                "Main," serves as an interactive platform featuring a straightforward HTML
+                form. Here, users effortlessly input essential details such as their name, address, education, and
+                skills. Seamlessly transitioning to the second page, titled "Display," users witness an elegant
+                presentation of the information
+                they provided earlier</p>
+        </div>
+        <div class="mainRight">
+            <img src="../static/p1.png">
+        </div>
+    </main>
+
+    <hr>
+    <footer class="footer">
+
+        <div>
+            <h4>Phone</h4>
+            7666124259
+        </div>
+        <div>
+            <h4>Email</h4>
+            aditya.gore18@gmail.com
+        </div>
+        <div>
+            <h4>Follow Me</h4>
+            <a href="www.linkedin.com/in/goreadityaashok18"><img src="../static/instagram.png"></a>
+            <a href="https://www.instagram.com/goreadityaashok/"><img src="../static/linkedin-logo.png"></a>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
